@@ -1,14 +1,22 @@
 {
   "name": "discordproject",
-  "version": "1.0.0",
-  "description": "mybot",
+  "version": "0.0.1",
+  "description": "my toy project: discord bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkddn5623/discordProject.git"
+  },
+  "author": "tkddn5623",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkddn5623/discordProject/issues"
+  },
+  "homepage": "https://github.com/tkddn5623/discordProject#readme",
   "dependencies": {
-    "discord.js": "^14.5.0"
+    "discord.js": "^14.6.0"
   }
 }
